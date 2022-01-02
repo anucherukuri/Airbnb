@@ -1,0 +1,13 @@
+Card {
+  object-fit: cover;
+  object-position: center center;
+  max-height: 16rem;
+  color: black !important;
+}
+
+.cardImage {
+  height: 180px;
+}
+.card {
+  color: black;
+}

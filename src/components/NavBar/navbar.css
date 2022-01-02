@@ -1,0 +1,41 @@
+.Navbar {
+  margin-bottom: 180px;
+  background-color: black !important;
+  width: 80vw;
+}
+.navImg {
+  height: 40px;
+  width: 130px;
+  object-fit: cover;
+  margin-right: 60px;
+}
+.me-auto {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: white;
+}
+.host-button {
+  margin-left: 80px;
+  border-radius: 25px;
+  border: none;
+  background-color: black !important;
+}
+.globe-button {
+  margin-left: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: black !important;
+}
+.profile-button {
+  margin-left: 20px;
+  border-radius: 25px;
+  background-color: white !important;
+}
+.host-button:hover {
+  background-color: grey !important;
+}
+.globe-button:hover {
+  background-color: grey !important;
+}

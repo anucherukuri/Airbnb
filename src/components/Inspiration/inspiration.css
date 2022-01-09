@@ -1,13 +1,58 @@
-Card {
+.Card {
   object-fit: cover;
   object-position: center center;
-  max-height: 16rem;
+  height: 16rem;
+  max-height: 18rem;
   color: black !important;
+  margin-right: 50px;
+  margin-top: 100px;
 }
-
+.card-title {
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 30px;
+}
+.card-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.galway-cardBody {
+  background-color: #bc1a6e;
+  height: 10rem;
+  color: white;
+}
+.cork-cardBody {
+  background-color: #de3151;
+  height: 10rem;
+  color: white;
+}
+.westport-cardBody {
+  background-color: #d93b30;
+  height: 10rem;
+  color: white;
+}
+.waterford-cardBody {
+  background-color: #cc2d4a;
+  height: 10rem;
+  color: white;
+}
 .cardImage {
   height: 180px;
 }
 .card {
   color: black;
 }
+/* .Inspiration-Container {
+  background-color: white !important;
+  width: 1000vh !important;
+} */
+/* .cards {
+  border-radius: 25px !important;
+}
+.Inspiration-Div {
+  background-color: white !important;
+} */

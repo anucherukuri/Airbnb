@@ -6,12 +6,13 @@ import {
   Col,
   FooterLink,
   Heading
-} from "./FooterStyles";
+} from "./FooterStyles.js";
 
   
 const Footer = () => {
   return (
-    <Box>
+    
+    <Box className="footer-box">
      
       <Container>
         <Row>

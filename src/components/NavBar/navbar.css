@@ -1,7 +1,12 @@
 .Navbar {
   margin-bottom: 180px;
   background-color: black !important;
-  width: 80vw;
+  width: 90vw;
+}
+.places,
+.exp,
+.online-Exp {
+  color: white !important;
 }
 .navImg {
   height: 40px;
@@ -14,7 +19,6 @@
     Helvetica Neue, sans-serif;
   font-size: 14px;
   line-height: 1.43;
-  color: white;
 }
 .host-button {
   margin-left: 80px;

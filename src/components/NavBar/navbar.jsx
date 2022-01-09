@@ -19,13 +19,32 @@ class Nav_bar extends Component{
         </Image>
         </Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#places">Places to stay</Nav.Link>
-      <Nav.Link href="#exps">Experiences</Nav.Link>
-      <Nav.Link href="#online">Online Experiences</Nav.Link>
+      <Nav.Link href="#places" className= "places">Places to stay</Nav.Link>
+      <Nav.Link href="#exps" className="exp">Experiences</Nav.Link>
+      <Nav.Link href="#online" className="online-Exp">Online Experiences</Nav.Link>
     </Nav>
     <Button bg='dark' variant='dark' className='host-button'>Become a host</Button>
     <Button bg='dark' variant='dark' className='globe-button'><BiGlobe className='globe-icon'/></Button>
-    <Button bg='light' variant='light'className='profile-button'> <AiOutlineMenu/> <FaUserCircle/></Button>
+    <Button bg='light' variant='light'className='profile-button'> <AiOutlineMenu/> <FaUserCircle/>   </Button>
+
+     {/* <InputGroup className="mb-3">
+    <FormControl aria-label="Text input with dropdown button" />
+
+    <DropdownButton 
+      variant="outline-secondary"
+      title="Dropdown"
+      id="input-group-dropdown-2"
+      align="end"
+    >
+      <AiOutlineMenu/> <FaUserCircle/>
+      <Dropdown.Item href="#">Action</Dropdown.Item>
+      <Dropdown.Item href="#">Another action</Dropdown.Item>
+      <Dropdown.Item href="#">Something else here</Dropdown.Item>
+      <Dropdown.Divider />
+      <Dropdown.Item href="#">Separated link</Dropdown.Item>
+    </DropdownButton>
+  </InputGroup> */}
+
     </Container>
   </Navbar>
   </div>

@@ -1,4 +1,6 @@
 .App {
+  background-color: black !important;
+  height: 100vw;
   text-align: center;
 }
 
@@ -6,16 +8,25 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+a {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: inherit !important;
+  font-weight: 600 !important;
+  margin-top: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.first {
+  background-color: black !important;
+}
+.second {
+  background-color: white !important;
+}
 .App-header {
-  background-color: black;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +34,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/* .App-footer {
+  box-direction: normal !important;
+  box-orient: vertical !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  margin-bottom: 0px;
+  max-width: 1600px;
+} */
 .App-link {
   color: #61dafb;
 }

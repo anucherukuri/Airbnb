@@ -61,11 +61,7 @@ class Inspiration extends Component{
                     </Card.Body>
                     </Card>
                     </Col>
-
-
 </Row>
-
-
 </Container>
 
 )

@@ -1,22 +1,2 @@
-.Discover-title {
-  padding-bottom: 24px;
-  font-size: 25px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 28px;
-}
-.discoverContainer {
-}
-.discover {
-  font-size: 32px !important;
-  font-weight: var(font-weight, 800) !important;
-  letter-spacing: var(letter-spacing, 0em) !important;
-  line-height: var(line-height, 36px) !important;
-  color: var(color, #222222) !important;
-  -webkit-line-clamp: var(line-clamp) !important;
-  max-width: 100% !important;
-  white-space: pre-line !important;
-  padding: 24px;
-  height: 100%;
-  width: 100%;
+.discover-wrapper {
 }

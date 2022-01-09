@@ -20,13 +20,11 @@ a {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.first {
-  background-color: black !important;
-}
+
 .second {
   background-color: white !important;
 }
-.App-header {
+*/ .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -23,7 +23,7 @@ function App() {
          <Inspiration/>
         <Discover/>
         <Hosting/>
-        <Footer/>
+        {/* <Footer/> */}
        </div>
         
       </header>

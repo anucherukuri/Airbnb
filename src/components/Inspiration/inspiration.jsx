@@ -12,9 +12,9 @@ class Inspiration extends Component{
         return(
             
             <Container className='Inspiration-Container'>
-            
+            <h1>Inspiration for your next trip</h1>
                 <Row>
-                    <Col xs={3} className='mr-2'>
+                    <Col xs={3} className=''>
                     <Card style={{ width: '18rem' }} className='cards'>
                      <Card.Img  className= "cardImage" variant="top" src={galway} />
                     <Card.Body className='galway-cardBody'>
@@ -26,7 +26,7 @@ class Inspiration extends Component{
                     </Card>
                     </Col>
 
-                     <Col xs={3}>
+                     <Col xs={3} className=''>
                     <Card style={{ width: '18rem' }} className='cards'>
                     <Card.Img className= "cardImage" variant="top" src= {cork}/>
                     <Card.Body className='cork-cardBody'>
@@ -38,7 +38,7 @@ class Inspiration extends Component{
                     </Card>
                     </Col>
 
-                     <Col xs={3} mr-2>
+                     <Col xs={3} className=''>
                     <Card style={{ width: '18rem' }} className='cards'>
                     <Card.Img className= "cardImage" variant="top" src= {westport}/>
                     <Card.Body className='westport-cardBody'>
@@ -50,7 +50,7 @@ class Inspiration extends Component{
                     </Card>
                     </Col>
 
-                    <Col xs={3}>
+                    <Col xs={3} className=''>
                     <Card style={{ width: '18rem' }} className='cards'>
                     <Card.Img className= "cardImage" variant="top" src= {waterford} />
                     <Card.Body className='waterford-cardBody'>

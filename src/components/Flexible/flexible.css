@@ -1,16 +1,21 @@
-.text-on-card {
+.flexible_info {
   color: #ffffff;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 36px;
-  margin-top: 600px;
+  margin-top: -150px;
+  margin-bottom: 100px;
 }
 .card {
   margin-bottom: 500px;
   border: none;
   height: 400px;
   width: 1600px;
+}
+.flexible-div img {
+  width: 90%;
+  border-radius: 25px;
 }
 .flexible-button {
   margin-top: 20px;
@@ -19,13 +24,7 @@
   padding: 12px 24px !important;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     Helvetica Neue, sans-serif !important;
-  background: linear-gradient(
-      90deg,
-      rgb(111, 1, 156) 0%,
-      rgb(198, 1, 126) 135.12%
-    )
-    repeat scroll 0% 0% padding-box text !important;
-
+  background-color: white !important;
   /* 
  
   cursor: pointer !important;

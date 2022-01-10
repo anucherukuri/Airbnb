@@ -5,17 +5,13 @@ import CarouselImg from '../../Assets/CarouselImg.jpg'
 
 const Flexible = () => {
     return(
-        <Card className="card bg-dark text-white">
-  <Card.Img src={CarouselImg} alt="Card image" />
-  <Card.ImgOverlay>
-    
-    <Card.Text class="text-on-card">
-      Not sure where to go? Perfect.
-      <p><Button variant='light' className='flexible-button'>I'm flexible</Button></p>
-    </Card.Text>
-    
-  </Card.ImgOverlay>
-</Card>
+        <div className="flexible-div">
+        <img src={CarouselImg} />
+        <div className="flexible_info">
+          <h1 className='flexible-heading'>Not Sure where to go? Perfect.</h1>
+          <Button variant="light" className='flexible-button'>I'm flexible</Button>
+        </div>
+      </div>
     )
 }
 export default Flexible;

@@ -2,7 +2,7 @@
   object-fit: cover;
   object-position: center center;
   color: black !important;
-  margin-right: 50px;
+  padding: 10px;
 }
 .card-title {
   color: #ffffff;
@@ -20,21 +20,31 @@
 .galway-cardBody {
   background-color: #bc1a6e;
   color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .cork-cardBody {
   background-color: #de3151;
   color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .westport-cardBody {
   background-color: #d93b30;
   color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .waterford-cardBody {
   background-color: #cc2d4a;
   color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .cardImage {
   height: 180px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 .col-3 {
   max-height: 400px !important;
